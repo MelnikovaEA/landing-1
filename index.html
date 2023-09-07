@@ -5,6 +5,11 @@
 	<title>FIGMA | Макеты для верстки — Верстка страницы</title>
 	<meta name="description" content="Макет для верстки сайта был взял с телеграм канала FIGMA | Макеты для верстки">
     <link rel="stylesheet" href="css/base.css">
+    <link href="https://db.onlinewebfonts.com/c/c282f71eca28384dd18e3cd66867f612?family=MTN+Brighter+Sans+Medium"
+          rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/outfit" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -24,8 +29,126 @@
     </div>
     <!-- Конец -->
 
-    <div class="main">
-        В данном блоке размещается верстка
+    <div class="page">
+        <header class="header">
+            <div class="header__container container">
+                <img src="img/logo-1.png" alt="logo" class="header__logo">
+                <nav>
+                    <ul class="header__menu">
+                        <li><a href="#" class="header__menu-item">About</a></li>
+                        <li><a href="#" class="header__menu-item">Services</a></li>
+                        <li><a href="#" class="header__menu-item">Pricing</a></li>
+                        <li><a href="#" class="header__menu-item">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main class="main">
+
+            <section class="main__heading container">
+                <div class="main__heading-info">
+                    <h1 class="main__heading-info-heading">keeping memories with an <span
+                            class="main__heading-info-heading-span">Aesthetic Pictures and Videos</span></h1>
+                    <p class="main__heading-info-text">The most reliable studio for Photography and Videography</p>
+                    <div class="main__heading-info-buttons">
+                        <button type="button" class="main__heading-info-button button">Portfolio</button>
+                        <button type="submit" class="main__heading-info-button button">Book now</button>
+                    </div>
+                </div>
+                <img src="img/heading-image.png" class="main__heading-image" alt="img">
+            </section>
+
+            <section class="services container">
+                <span class="services__heading">Affiliate Services</span>
+                <ul class="services__list">
+                    <li class="services__list-item">
+                        <img src="img/album.png" alt="picture">
+                        <span>Photo Book</span>
+                    </li>
+                    <li class="services__list-item">
+                        <img src="img/multimedia.png" alt="picture">
+                        <span>Videography</span>
+                    </li>
+                    <li class="services__list-item">
+                        <img src="img/frame.png" alt="picture">
+                        <span>Photo Frame</span>
+                    </li>
+                    <li class="services__list-item">
+                        <img src="img/wanted.png" alt="picture">
+                        <span>Passport Picture</span>
+                    </li>
+                </ul>
+            </section>
+
+            <div class="container">
+                <section class="pricing">
+                    <img src="img/pricing-image.png" class="pricing-image" alt="img">
+                    <div class="pricing-info">
+                        <h3 class="pricing-info-heading heading">Well Quiped studio set up for both Video and
+                            PhotoProduction
+                        </h3>
+                        <p class="pricing-info-text info-text">We have current equipment to facilitate studio productions
+                        </p>
+                        <button type="button" class="pricing-info-button button">View Pricing</button>
+                    </div>
+                </section>
+            </div>
+
+            <div class="container">
+                <section class="experience">
+                    <div class="experience-info">
+                        <h3 class="experience-info-heading heading">Over 10years Experience in Video Production</h3>
+                        <p class="experience-info-text info-text">We have experience Cenimatographers with current equipment
+                            and tool to produce awesome footages</p>
+                        <button type="button" class="experience-info-button button">Read More</button>
+                    </div>
+                    <img src="img/experience-image.png" class="experience-image" alt="img">
+                </section>
+            </div>
+
+            <div class="container">
+                <section class="testimonials">
+                    <p class="testimonials__text">testimonials</p>
+                    <h2 class="testimonials__heading heading">Read what other <br> have to say</h2>
+                    <ul class="testimonials__cards">
+                        <li class="testimonials__card">
+                            <img src="img/person-1.png" alt="photo" class="testimonials__card-image">
+                            <div class="testimonials__card-person">
+                                <p class="testimonials__card-person-name">olivia cole</p>
+                                <p class="testimonials__card-person-text">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                    elit. Nunc ullamcorper scelerisque mi, in malesuada felis malesuada vel.</p>
+                            </div>
+                        </li>
+                        <li class="testimonials__card">
+                            <img src="img/person-2.png" alt="photo" class="testimonials__card-image">
+                            <div class="testimonials__card-person">
+                                <p class="testimonials__card-person-name">mr. katakyie</p>
+                                <p class="testimonials__card-person-text">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                    elit. Nunc ullamcorper scelerisque mi, in malesuada felis malesuada vel.</p>
+                            </div>
+                        </li>
+                        <li class="testimonials__card">
+                            <img src="img/person-3.png" alt="photo" class="testimonials__card-image">
+                            <div class="testimonials__card-person">
+                                <p class="testimonials__card-person-name">mrs. sam
+                                <p>
+                                <p class="testimonials__card-person-text">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                    elit. Nunc ullamcorper scelerisque mi, in malesuada felis malesuada vel.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+
+            <section class="booking container">
+                <p class="booking__text">are you ready?</p>
+                <h2 class="booking__heading heading">be a part of the<br>next big thing</h2>
+                <button type="button" class="booking-button button">Book Now</button>
+            </section>
+
+        </main>
+
     </div>
 
 </body>

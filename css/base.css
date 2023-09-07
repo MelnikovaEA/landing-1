@@ -23,16 +23,289 @@
 .maketforfigma p > a:hover {
     color: #ffffff
 }
-.main{
+.page {
     flex: 1 0 auto;
 }
+
 html{
     height: 100%;
 }
-body{
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    background-image: url(../img/background.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "MTN Brighter Sans Medium", sans-serif;
+    color: #FFF;
+    font-weight: 400;
+}
+
+.container {
+    width: 1125px;
+    margin: 0 auto;
+}
+
+.button {
+    font-family: "MTN Brighter Sans Medium", sans-serif;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 27.5px;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 10px;
+}
+
+.heading {
+    font-size: 36px;
+    line-height: 35.5px;
+    letter-spacing: -0.72px;
+    font-weight: 300;
+}
+
+.info-text {
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
+    line-height: 17.5px;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 105px auto 96px auto;
+}
+
+.header__logo {
+    height: 69px;
+    width: 175px;
+}
+
+.header__menu {
+    display: flex;
+    list-style: none;
+}
+
+.header__menu-item {
+    color: #FFF;
+    font-family: "Outfit", sans-serif;
+    font-size: 25px;
+    line-height: 30px;
+    text-decoration: none;
+    padding-left: 26px;
+}
+
+.main__heading {
+    display: flex;
+    margin-bottom: 145px;
+}
+
+.main__heading-info-heading {
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 45.5px;
+    letter-spacing: -1px;
+    padding-right: 77px;
+}
+
+.main__heading-info-heading-span {
+    font-weight: 700;
+    line-height: 47.5px;
+}
+
+.main__heading-info-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27.5px;
+    padding-right: 200px;
+    margin: 10px 0 28px 0;
+}
+
+.main__heading-info-buttons {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.main__heading-info-button {
+    background-color: transparent;
+    padding: 15px 40px;
+    border: 1px solid #FFF;
+}
+
+.main__heading-info-buttons :first-child {
+    margin-right: 51px;
+}
+
+.main__heading-info-button:hover {
+    background-color: #D50138;
+    border: none;
+}
+
+.main__heading-image {
+    width: 553px;
+    height: 349px;
+}
+
+.services__heading {
+    font-size: 20px;
+    line-height: 27.5px;
+    text-transform: uppercase;
+}
+
+.services__list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    line-height: 30px;
+    background-color: #FFFFFF1A;
+    border-radius: 6px;
+    margin-bottom: 190px;
+}
+
+.services__list-item {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.services__list-item > img {
+    padding: 20px 30px;
+}
+.services__list :first-child > :first-child {
+    padding-left: 0;
+}
+
+.pricing {
+    display: flex;
+    padding: 0 90px;
+    margin: 0 auto 178px auto;
+}
+
+.pricing-image {
+    width: 478px;
+    height: 294px;
+}
+
+.pricing-info {
+    padding: 33px 0 33px 64px;
+}
+
+.pricing-info-text {
+    padding: 13px 0 24px 0;
+}
+
+.pricing-info-button {
+    background-color: #0026FF;
+}
+
+.experience {
+    display: flex;
+    padding: 0 90px;
+    margin: 0 auto 178px auto;
+}
+
+.experience-info {
+    padding: 5px 90px 0 0;
+}
+
+.experience-info-text {
+    padding: 13px 0 20px 0;
+}
+
+.experience-info-button {
+    background-color: #7502A3;
+}
+
+.testimonials__text {
+    font-size: 20px;
+    line-height: 27.5px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 19px;
+}
+
+.testimonials__heading {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 55px;
+    text-align: center;
+}
+
+.testimonials__cards {
+    display: flex;
+    justify-content: space-between;
+    margin: 76px 0 126px 0;
+    list-style: none;
+}
+
+.testimonials__card {
+    width: 29%;
     display: flex;
     flex-direction: column;
-    height: 100%;
-    padding: 0;
-    margin: 0;
+}
+
+.testimonials__card-image {
+    width: 166px;
+    height: 166px;
+    border-radius: 100px;
+    align-self: center;
+    margin-bottom: -83px;
+    z-index: 1;
+}
+
+.testimonials__card-person {
+    background-color: rgba(0, 38, 255, 0.30);
+    border-radius: 18px;
+    min-height: 300px;
+    padding: 0 45px;
+    text-align: center;
+}
+
+.testimonials__card-person-name {
+    font-size: 20px;
+    line-height: 27.5px;
+    text-transform: capitalize;
+    padding: 100px 0 17px 0;
+}
+
+.testimonials__card-person-text {
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.booking {
+    text-align: center;
+    min-height: 356px;
+    background-image: linear-gradient(95deg, rgba(0, 117, 255, 0.47) 1.06%, rgba(231, 0, 111, 0.41) 101.51%);
+    border-radius: 18px;
+    padding: 63px 0;
+    box-sizing: border-box;
+    margin-bottom: 544px;
+}
+
+.booking__text {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.booking__heading {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 48px;
+    text-transform: capitalize;
+    margin: 20px auto 30px auto;
+}
+
+.booking-button {
+    color: #311B52;
+    background-color: #FFFFFF;
 }
